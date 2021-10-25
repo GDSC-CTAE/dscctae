@@ -29,11 +29,11 @@ function Aboutus() {
         </div>
       </div>
       <div className="mb-5">
-        <h1 className="mb-3">Our Motto</h1>
+        <h1 className="mb-5">Our Motto</h1>
 
         <div className="row justify-content-center">
           <div className="col-lg-4 ">
-            <img src="cp.svg" alt="cp" className="cp"></img>
+            <img src="cp.svg" alt="cp" className="cp mb-4"></img>
             <p>
               {" "}
               It is a long established fact that a reader will be distracted by
@@ -44,9 +44,9 @@ function Aboutus() {
             </p>
           </div>
           <div className="col-lg-4">
-            <img src="web.svg" alt="web" className="web"></img>
-            <p>
-              {" "}
+            <img src="web.svg" alt="web" className="web mb-4"></img>
+            <p >
+               {" "}
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a more-or-less normal
@@ -55,7 +55,7 @@ function Aboutus() {
             </p>
           </div>
           <div className="col-lg-4">
-            <img src="android.svg" alt="android" className="android"></img>
+            <img src="android.svg" alt="android" className="android mb-4"></img>
             <p>
               {" "}
               It is a long established fact that a reader will be distracted by
