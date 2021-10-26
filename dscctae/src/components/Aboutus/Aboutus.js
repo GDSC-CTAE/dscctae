@@ -28,7 +28,7 @@ function Aboutus() {
           ></img>
         </div>
       </div>
-      <div className="mb-5">
+      <div >
         <h1 className="mb-5">Our Motto</h1>
 
         <div className="row justify-content-center">
