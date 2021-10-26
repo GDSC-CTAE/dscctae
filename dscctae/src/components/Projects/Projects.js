@@ -4,7 +4,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Project(){
    return(
-       <div className="container"> 
+       <div className="container" id="projects"> 
            <div>
                <h1>Projects</h1>
            </div>

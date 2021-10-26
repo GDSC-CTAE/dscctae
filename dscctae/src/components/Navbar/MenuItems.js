@@ -13,7 +13,7 @@ export const MenuItems = [
   },
   {
     title: "Projects",
-    url: "/projects",
+    url: "/#projects",
     cName: "nav-links",
     cHame: "route-link",
   },
