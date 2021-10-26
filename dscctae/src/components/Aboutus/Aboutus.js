@@ -6,7 +6,7 @@ import { mottoData } from "../../data/mottoData";
 function Aboutus() {
   return (
     <div>
-      <div className="container-fluid about">
+      <div className="container-fluid about ">
         <div className="container">
           <div className="row  aboutus" id="aboutus">
             <div className="container mb-5">
@@ -25,7 +25,8 @@ function Aboutus() {
           </div>
         </div>
       </div>
-      <div className="container-fluid motto">
+ 
+      <div className="container-fluid motto ">
         <div className="container">
           <div className="mb-5">
             <h1 className="mb-5">Our Motto</h1>

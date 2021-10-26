@@ -11,6 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       <Aboutus />
+      <br/>
+      <br/>
       <Project />
       <br/>
       <br />
