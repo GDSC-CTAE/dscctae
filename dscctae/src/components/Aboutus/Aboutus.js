@@ -26,7 +26,7 @@ function Aboutus() {
         </div>
       </div>
  
-      <div className="container-fluid motto ">
+      <div className="container-fluid motto mb-5">
         <div className="container">
           <div className="mb-5">
             <h1 className="mb-5">Our Motto</h1>
