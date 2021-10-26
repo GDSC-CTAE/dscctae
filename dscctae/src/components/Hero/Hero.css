@@ -10,9 +10,7 @@
   font-size: 230%;
   text-align: center;
 }
-.hero {
-  padding-bottom: 40px;
-}
+
 @media screen and (max-width: 960px) {
   .heroimg {
     width: 100%;

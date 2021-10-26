@@ -1,11 +1,14 @@
+.about {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
 .dscaboutsvg {
   width: 100%;
   height: 100%;
 }
-.about {
-  width: 100%;
-  height: 100vh;
-}
+
 .aboutus {
   height: 400px;
   margin: 10px 0px 20px 0px;
@@ -20,39 +23,14 @@ p {
   font-size: 17px;
   text-align: justify;
 }
-.motto {
-  background-color: #1a73e8;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #ffffff;
-}
-.cp,
-.web,
-.android {
-  width: 290px;
-  height: 180px;
-  padding: 20px;
-  border: solid #ffffff;
-}
-.colabout {
-  display: flex;
-  flex-direction: column;
-}
-.colabout > p {
-  width: 290px;
-  height: 180px;
-  justify-content: center;
-}
-.colabout:hover {
-  background-color: #fff;
-}
-.triangle-left {
+
+/* .triangle-left {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
   border-right: 100px solid #1a73e8;
   border-bottom: 50px solid transparent;
-}
+} */
 @media screen and (max-width: 960px) {
   .aboutus-matter {
     align-self: center;
@@ -60,7 +38,7 @@ p {
     padding-top: 30px;
   }
   .about {
-    width: 100%;
+    width: 100vw;
     height: auto;
     padding-bottom: 100px;
   }
