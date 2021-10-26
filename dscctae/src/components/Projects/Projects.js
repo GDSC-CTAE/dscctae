@@ -24,8 +24,11 @@ function Project() {
               <div className="row">
                 <div className="col-8 align-self-center">
                   <span>Status : </span>
-                  <span className="badge rounded-pill bg-success">
-                    Completed
+                  {/* <span className="badge rounded-pill bg-success">
+                    {projects.status}
+                  </span> */}
+                  <span className={" badge rounded-pill "+ ( projects.status ? 'bg-success' : 'bg-danger')}>
+                    {projects.statusName}
                   </span>
                 </div>
                 <div className="col-3 button-container">
