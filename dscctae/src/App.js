@@ -1,5 +1,6 @@
 import "./App.css";
 import Aboutus from "./components/Aboutus/Aboutus";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Motto from "./components/Motto/Motto";
 import Navbar from "./components/Navbar/Navbar";
@@ -17,6 +18,13 @@ function App() {
       <br />
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Footer />
     </div>
   );
 }
