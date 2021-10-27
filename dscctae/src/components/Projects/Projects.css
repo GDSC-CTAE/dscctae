@@ -30,7 +30,10 @@
 .github-button:focus{
     outline: none !important;
 }
-
+.project-description{
+    align-self: center;
+  text-align: left;
+}
 .contribute-button{
     border: none;
     background-color: #1a73e8;
