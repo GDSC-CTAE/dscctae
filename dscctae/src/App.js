@@ -5,17 +5,19 @@ import Hero from "./components/Hero/Hero";
 import Motto from "./components/Motto/Motto";
 import Navbar from "./components/Navbar/Navbar";
 import Project from "./components/Projects/Projects";
+import TeamMembers from "./components/TeamMember/TeamMember";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      {/* <Aboutus /> */}
+      <Aboutus />
       <br/>
       <br/>
       <Project />
       <br />
+      <TeamMembers />
       <br />
       <br />
       <br />

@@ -19,7 +19,7 @@ export const MenuItems = [
   },
   {
     title: "Team",
-    url: "/team",
+    url: "/#team",
     cName: "nav-links",
     cHame: "route-link",
   },

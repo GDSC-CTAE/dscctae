@@ -1,0 +1,72 @@
+export const teamData=[
+    {
+        name: "Harsh Candravanshi",
+        post: "developer",
+        linkedinLink:"",
+        githubLink:"",
+        instagramLink:"",
+    },
+    {
+        name: "Sheetal Dadhich",
+        post: "developer",
+        linkedinLink:"",
+        githubLink:"",
+        instagramLink:"",
+    },
+    {
+        name: "Harsh Candravanshi",
+        post: "developer",
+        linkedinLink:"",
+        githubLink:"",
+        instagramLink:"",
+    },
+    {
+        name: "Sheetal Dadhich",
+        post: "developer",
+        linkedinLink:"",
+        githubLink:"",
+        instagramLink:"",
+    },
+    {
+        name: "Sheetal Dadhich",
+        post: "developer",
+        linkedinLink:"",
+        githubLink:"",
+        instagramLink:"",
+    },
+    {
+        name: "Harsh Candravanshi",
+        post: "developer",
+        linkedinLink:"",
+        githubLink:"",
+        instagramLink:"",
+    },
+    {
+        name: "Sheetal Dadhich",
+        post: "developer",
+        linkedinLink:"",
+        githubLink:"",
+        instagramLink:"",
+    },
+    {
+        name: "Sheetal Dadhich",
+        post: "developer",
+        linkedinLink:"",
+        githubLink:"",
+        instagramLink:"",
+    },
+    {
+        name: "Harsh Candravanshi",
+        post: "developer",
+        linkedinLink:"",
+        githubLink:"",
+        instagramLink:"",
+    },
+    {
+        name: "Sheetal Dadhich",
+        post: "developer",
+        linkedinLink:"",
+        githubLink:"",
+        instagramLink:"",
+    }
+]
