@@ -1,0 +1,15 @@
+.events {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px;
+  background-color: #1a73e8;
+  color: #303030;
+}
+.eventsTitle {
+  background-color: #ffffff;
+  color: #1a73e8;
+}

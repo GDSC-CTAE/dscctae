@@ -1,5 +1,4 @@
 .heroimg {
-  padding-top: 2.2%;
   width: 100%;
   height: 100%;
 }
@@ -7,14 +6,11 @@
   font-weight: 700;
   padding-top: 5%;
   color: #1a73e8;
-  font-size: 300%;
+  font-size: 270%;
   text-align: center;
 }
-.heroSubtitle{
+.heroSubtitle {
   color: grey;
-}
-.hero {
-  padding-bottom: 40px;
 }
 
 @media screen and (max-width: 960px) {

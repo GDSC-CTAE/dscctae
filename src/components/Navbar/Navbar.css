@@ -96,14 +96,16 @@ a {
     text-align: center;
     padding: 2rem;
     font-size: 1rem;
-    width: 90%;
+    width: 100%;
     display: table;
     color: #fff;
     text-decoration: none;
   }
   .nav-links:hover {
-    background-color: #6c63ff;
+    background-color: #fff;
     border-radius: 0;
+    color: #303030;
+
     text-decoration: none;
   }
   .navbar-logo {
