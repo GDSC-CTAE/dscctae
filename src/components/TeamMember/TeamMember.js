@@ -3,7 +3,7 @@ import "./TeamMember.css";
 import { teamData } from "../../data/teamData";
 function TeamMembers() {
   return (
-    <div className="container-fluid teamMember" id="team">
+    <div className=" teamMember" id="team">
       <div className="container" id="team">
         <div className="memberTitle mb-3">
           <h1>Team Members</h1>

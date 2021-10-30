@@ -50,7 +50,7 @@ function Project() {
                 </div>
                 <br />
                 <div>
-                  <button className=" rounded btn btn-light">
+                  <button className="contribute-button rounded">
                     Wants to Contribute
                   </button>
                 </div>
@@ -60,7 +60,7 @@ function Project() {
         </div>
         <br />
         <div>
-          <button className="contribute-button rounded p-3 mt-5 ">
+          <button className="contribute-button rounded p-2 ">
             See All projects
           </button>
         </div>
