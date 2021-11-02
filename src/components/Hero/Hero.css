@@ -2,20 +2,30 @@
   width: 100%;
   height: 100%;
 }
+
 .heroTitle {
   font-weight: 700;
-  padding-top: 5%;
+  margin-top: 9%;
   color: #1a73e8;
   font-size: 270%;
   text-align: center;
 }
+
 .heroSubtitle {
   color: grey;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 460px) {
   .heroimg {
     width: 100%;
-    height: 120%;
+    height: 100%;
+    padding-top: 67%;
+  }
+  .heroTitle {
+    font-weight: 700;
+    margin-top: 50%;
+    color: #1a73e8;
+    font-size: 270%;
+    text-align: center;
   }
 }

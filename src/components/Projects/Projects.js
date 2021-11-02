@@ -31,7 +31,9 @@ function Project() {
                     <span
                       className={
                         " badge rounded-pill " +
-                        (projects.status ? "bg-success" : "bg-danger")
+                        (projects.status === "true"
+                          ? "bg-success"
+                          : "bg-danger")
                       }
                     >
                       {projects.statusName}
@@ -41,7 +43,7 @@ function Project() {
                     <button
                       className=" github-button  "
                       onClick={() => {
-                        window.open("https://github.com", "_blank");
+                        window.open(projects.link, "_blank");
                       }}
                     >
                       <GitHubIcon className="fs-1 h-100 w-100" />
@@ -50,7 +52,12 @@ function Project() {
                 </div>
                 <br />
                 <div>
-                  <button className="contribute-button rounded">
+                  <button
+                    className="contribute-button rounded"
+                    onClick={() => {
+                      window.open(projects.link, "_blank");
+                    }}
+                  >
                     Wants to Contribute
                   </button>
                 </div>
@@ -60,7 +67,15 @@ function Project() {
         </div>
         <br />
         <div>
-          <button className="contribute-button rounded p-2 ">
+          <button
+            className="contribute-button rounded p-2 "
+            onClick={() => {
+              window.open(
+                "https://github.com/orgs/GDSC-CTAE/repositories",
+                "_blank"
+              );
+            }}
+          >
             See All projects
           </button>
         </div>

@@ -26,7 +26,7 @@ export const MenuItems = [
 
   {
     title: "Contact Us",
-    url: "/contactus",
+    url: "/#contactus",
     cName: "nav-links",
     cHame: "route-link",
   },

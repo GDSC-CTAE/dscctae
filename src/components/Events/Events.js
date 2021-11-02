@@ -3,7 +3,8 @@ import { eventsData } from "../../data/eventsData";
 import "./Events.css";
 
 function Events() {
-  const descLength = 10;
+  const descLengthTitle = 5;
+  const descLengthDesc = 10;
   return (
     <div className=" events " id="events">
       <div className="container">
@@ -22,11 +23,15 @@ function Events() {
                   />
                 </div>
                 <div class="cards-event-body">
-                  <h4>{events.eventName}</h4>
+                  <h4>
+                    {events.eventName <= descLengthTitle
+                      ? events.eventName
+                      : events.eventName.slice(0, 20) + "...."}
+                  </h4>
                   <p class="cards-event-text">
-                    {events.description < descLength
+                    {events.description <= descLengthDesc
                       ? events.description
-                      : events.description.split(0, 15) + "...."}
+                      : events.description.slice(0, 70) + "...."}
                   </p>
                   <a href={events.link} class="btn btn-primary">
                     Know More!

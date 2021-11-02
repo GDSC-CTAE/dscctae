@@ -7,6 +7,7 @@ import Hero from "./components/Hero/Hero";
 import Motto from "./components/Motto/Motto";
 import Navbar from "./components/Navbar/Navbar";
 import Project from "./components/Projects/Projects";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import TeamMembers from "./components/TeamMember/TeamMember";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <TeamMembers />
 
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

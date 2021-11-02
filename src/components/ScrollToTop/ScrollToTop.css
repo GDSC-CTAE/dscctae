@@ -1,0 +1,27 @@
+.scrollButton {
+  position: fixed;
+  display: flex;
+  right: 20px;
+  left: auto;
+  bottom: 20px;
+  background-color: #1a73e8;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  border: none;
+  z-index: 999;
+  top: auto;
+}
+.scrollButton:hover {
+  position: fixed;
+  display: flex;
+  right: 20px;
+  left: auto;
+  bottom: 20px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  color: #1a73e8;
+  border: black solid;
+  top: auto;
+}
