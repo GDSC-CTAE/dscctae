@@ -2,4 +2,4 @@
 
 # Made with react
 
-![alt text](https://github.com/harsh0620/Rangoli/blob/main/patterImage.png)
+![alt text](https://github.com/GDSC-CTAE/dscctae/blob/master/src/assets/website.png)
