@@ -14,26 +14,26 @@ function Events() {
         <div className="row container">
           {eventsData.map((events, index) => {
             return (
-              <div class="cards-event col-lg-4 m-3" key={index}>
+              <div className="cards-event col-lg-4 m-3" key={index}>
                 <div className="cards-event-img">
                   <img
-                    class="cards-event-img-top"
+                    className="cards-event-img-top"
                     src={events.img}
                     alt="CardEvent"
                   />
                 </div>
-                <div class="cards-event-body">
+                <div className="cards-event-body">
                   <h4>
                     {events.eventName <= descLengthTitle
                       ? events.eventName
                       : events.eventName.slice(0, 20) + "...."}
                   </h4>
-                  <p class="cards-event-text">
+                  <p className="cards-event-text">
                     {events.description <= descLengthDesc
                       ? events.description
                       : events.description.slice(0, 70) + "...."}
                   </p>
-                  <a href={events.link} class="btn btn-primary">
+                  <a href={events.link} className="btn btn-primary">
                     Know More!
                   </a>
                 </div>

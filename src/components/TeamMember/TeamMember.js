@@ -18,7 +18,7 @@ function TeamMembers() {
                     <div className="img-hover-zoom img-hover-zoom--colorize">
                       <img
                         className="shadow imgTeam"
-                        src="https://source.unsplash.com/rDEOVtE7vOs/600x600"
+                        src={member.img}
                         alt="AnotherImage zoom-on-hover effect"
                       />
                     </div>

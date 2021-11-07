@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
+import logo from "../../assets/dsclogoh.png";
 import "./Navbar.css";
 class Navbar extends Component {
   state = { clicked: false };
@@ -13,7 +14,7 @@ class Navbar extends Component {
     return (
       <nav className="NavbarItems">
         <a href="https://www.ctae.ac.in/">
-          <img src="dsclogoh.png" alt="dsc-logo" className="dsclogo"></img>
+          <img src={logo} alt="dsc-logo" className="dsclogo"></img>
         </a>
         <div className="menu-icon" onClick={this.handleClick}>
           {this.state.clicked ? <CloseIcon /> : <MenuIcon />}
