@@ -9,6 +9,7 @@ function Aboutus() {
         <div className="mb-3 aboutTitle">
           <h1> {aboutData.title}</h1>
         </div>
+        <br />
         <div className="row">
           <div className="col-lg-6">
             <img

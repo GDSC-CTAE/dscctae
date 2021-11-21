@@ -5,77 +5,68 @@ import { projectData } from "../../data/projectsData";
 
 function Project() {
   return (
-    <div className=" projects" id="projects">
+    <div className=" projects " id="projects">
       <div className="container">
-        <div className="mb-5 projectTitle">
+        <div className="mb-5 projectTitle pt-3">
           <h1>Projects</h1>
         </div>
-
-        <div className="row projectCards container">
+        <div className="row projectCards container text-center">
           {projectData.map((projects, index) => {
             return (
               <div
-                className="col-lg rounded project-container p-3 m-3"
+                className="col-lg rounded project-container p-5 m-3 "
                 key={index}
               >
                 <h3>{projects.title}</h3>
-                <div className="mt-3 project-description">
-                  {projects.description}
-                </div>
-                <div>
-                  <hr />
-                </div>
-                <div className="row">
-                  <div className="col-8 align-self-center">
-                    <span>Status : </span>
-                    <span
-                      className={
-                        " badge rounded-pill " +
-                        (projects.status === "true"
-                          ? "bg-success"
-                          : "bg-danger")
-                      }
-                    >
-                      {projects.statusName}
-                    </span>
+                <div className="row justify-content-center h-100">
+                  <div className="col-xs-12 mt-3 project-description ">
+                      {projects.description}
                   </div>
-                  <div className="col-3 button-container">
-                    <button
-                      className=" github-button  "
-                      onClick={() => {
-                        window.open(projects.link, "_blank");
-                      }}
-                    >
-                      <GitHubIcon className="fs-1 h-100 w-100" />
-                    </button>
+                  <hr className="" />
+                  <div className="col-xs-12 align-self-end ">
+                    <div className="row">
+                      <div className="col-8 align-self-center">
+                        <span>Status : </span>
+                        <span
+                          className={
+                            " badge rounded-pill " +
+                            (projects.status === "true"
+                              ? "bg-success"
+                              : "bg-danger")
+                          }
+                        >
+                          {projects.statusName}
+                        </span>
+                      </div>
+                      <div className="col-3 button-container">
+                        <button
+                          className=" github-button  "
+                          onClick={() => {
+                            window.open("https://github.com", "_blank");
+                          }}
+                        >
+                          <GitHubIcon className="fs-1 h-100 w-100" />
+                        </button>
+                      </div>
+                    </div>
+                    <br />
+                    <div className="row">
+                      <button className="contribute-button rounded">
+                        Wants to Contribute
+                      </button>
+                    </div>
+                    <br />
                   </div>
+
                 </div>
-                <br />
-                <div>
-                  <button
-                    className="contribute-button rounded"
-                    onClick={() => {
-                      window.open(projects.link, "_blank");
-                    }}
-                  >
-                    Wants to Contribute
-                  </button>
-                </div>
+
               </div>
             );
           })}
         </div>
         <br />
         <div>
-          <button
-            className="contribute-button rounded p-2 "
-            onClick={() => {
-              window.open(
-                "https://github.com/orgs/GDSC-CTAE/repositories",
-                "_blank"
-              );
-            }}
-          >
+          <button className="contribute-button rounded ">
             See All projects
           </button>
         </div>

@@ -9,10 +9,7 @@
   border-bottom: #1a73e8 solid 0.5px;
   color: #303030;
 }
-.eventsTitle {
-  background-color: #ffffff;
-  color: #1a73e8;
-}
+
 .cards-event {
   width: 300px;
   height: 400px;
@@ -35,4 +32,51 @@
 .cards-event-body {
   padding: 3%;
   text-align: left;
+}
+
+
+.event-container {
+  position: relative;
+  height: 380px;
+}
+
+.image {
+  opacity: 1;
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.event-container:hover .image {
+  opacity: 0.1;
+}
+
+.event-container:hover .middle {
+  opacity: 1;
+}
+.event-view-button{
+  border: none;
+  background-color: #1a73e8;
+  color: white;
+  padding-left: 3% !important;
+  padding-right: 3% !important;
+  font-size: 18px;
+  transition: box-shadow 1s;
+}
+.event-text{
+  align-self: center;
+  /* text-align: left; */
 }

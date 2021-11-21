@@ -22,3 +22,13 @@ body{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+button{
+  padding: 1%;
+  font-size: 18px;
+  transition: box-shadow 1s;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+button:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

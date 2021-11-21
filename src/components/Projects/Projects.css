@@ -6,12 +6,8 @@
   flex-direction: column;
   width: 100vw;
   height: auto;
-  border-bottom: #1a73e8 solid 0.5px;
+
   padding: 30px 0px 30px 0px;
-}
-.projectTitle {
-  background-color: #fff;
-  color: #1a73e8;
 }
 
 .project-container {

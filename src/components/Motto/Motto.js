@@ -9,6 +9,7 @@ function Motto() {
     <div className=" motto ">
       <div className="container">
         <h1 className="mb-3 mottoTitle">Our Motto</h1>
+        <br />
         <p className="text-center">
           We aim at collaborating together and making sure that every member of
           the community is able to make firm foundations for becoming the SDEs

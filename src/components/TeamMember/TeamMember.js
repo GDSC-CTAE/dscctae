@@ -8,7 +8,7 @@ function TeamMembers() {
         <div className="memberTitle mb-3">
           <h1>Team Members</h1>
         </div>
-
+        <br />
         <div className="row ">
           {teamData.map((member, index) => {
             return (
