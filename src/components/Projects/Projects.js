@@ -1,9 +1,14 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import "./Projects.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import { projectData } from "../../data/projectsData";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Project() {
+  useEffect(() => {
+    Aos.init({duration:1000})
+  }, [])
   return (
     <div className=" projects " id="projects">
       <div className="container">
@@ -16,6 +21,7 @@ function Project() {
               <div
                 className="col-lg rounded project-container p-5 m-3 "
                 key={index}
+                data-aos="fade-down-left"
               >
                 <h3>{projects.title}</h3>
                 <div className="row justify-content-center h-100">

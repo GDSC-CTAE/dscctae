@@ -1,7 +1,12 @@
-import React from "react";
+import React , {useEffect} from "react";
 import "./TeamMember.css";
 import { teamData } from "../../data/teamData";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function TeamMembers() {
+  useEffect(() => {
+    Aos.init({duration:1000})
+  }, [])
   return (
     <div className=" teamMember" id="team">
       <div className="container" id="team">
@@ -9,10 +14,11 @@ function TeamMembers() {
           <h1>Team Members</h1>
         </div>
         <br />
-        <div className="row ">
+        <br />
+        <div className="row " >
           {teamData.map((member, index) => {
             return (
-              <div className="col-lg-3 col-sm mb-2 line" key={index}>
+              <div className="col-lg-3 col-sm mb-2 line" key={index} data-aos="flip-right">
                 <div className="border h-100 shadow-sm pt-5 rounded image-conatiner">
                   <div className="text-center">
                     <div className="img-hover-zoom img-hover-zoom--colorize">
