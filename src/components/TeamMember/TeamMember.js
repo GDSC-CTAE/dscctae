@@ -1,12 +1,12 @@
-import React , {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./TeamMember.css";
 import { teamData } from "../../data/teamData";
 import Aos from "aos";
 import "aos/dist/aos.css";
 function TeamMembers() {
   useEffect(() => {
-    Aos.init({duration:1000})
-  }, [])
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className=" teamMember" id="team">
       <div className="container" id="team">
@@ -15,10 +15,14 @@ function TeamMembers() {
         </div>
         <br />
         <br />
-        <div className="row " >
+        <div className="row ">
           {teamData.map((member, index) => {
             return (
-              <div className="col-lg-3 col-sm mb-2 line" key={index} data-aos="flip-right">
+              <div
+                className="col-lg-3 col-sm mb-2 line"
+                key={index}
+                data-aos="flip-right"
+              >
                 <div className="border h-100 shadow-sm pt-5 rounded image-conatiner">
                   <div className="text-center">
                     <div className="img-hover-zoom img-hover-zoom--colorize">
@@ -42,13 +46,22 @@ function TeamMembers() {
                       <div>
                         <ul className="list-inline">
                           <li className="list-inline-item m-2">
-                            <i className="fab fa-github "></i>
+                            <a href={member.githubLink}>
+                              {" "}
+                              <i className="fab fa-github "></i>
+                            </a>
                           </li>
                           <li className="list-inline-item m-2">
-                            <i className="fab fa-linkedin-in"></i>
+                            <a href={member.linkedinLink}>
+                              {" "}
+                              <i className="fab fa-linkedin-in"></i>
+                            </a>
                           </li>
                           <li className="list-inline-item m-2">
-                            <i className="fab fa-instagram"></i>
+                            <a href={member.instagramLink}>
+                              {" "}
+                              <i className="fab fa-instagram"></i>
+                            </a>
                           </li>
                         </ul>
                       </div>

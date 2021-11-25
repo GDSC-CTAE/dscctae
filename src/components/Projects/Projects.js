@@ -1,4 +1,4 @@
-import React ,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./Projects.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import { projectData } from "../../data/projectsData";
@@ -7,8 +7,8 @@ import "aos/dist/aos.css";
 
 function Project() {
   useEffect(() => {
-    Aos.init({duration:1000})
-  }, [])
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className=" projects " id="projects">
       <div className="container">
@@ -26,7 +26,7 @@ function Project() {
                 <h3>{projects.title}</h3>
                 <div className="row justify-content-center h-100">
                   <div className="col-xs-12 mt-3 project-description ">
-                      {projects.description}
+                    {projects.description}
                   </div>
                   <hr className="" />
                   <div className="col-xs-12 align-self-end ">
@@ -57,24 +57,28 @@ function Project() {
                     </div>
                     <br />
                     <div className="row">
-                      <button className="contribute-button rounded">
+                      <a
+                        className="contribute-button rounded btn"
+                        href={projects.link}
+                      >
                         Wants to Contribute
-                      </button>
+                      </a>
                     </div>
                     <br />
                   </div>
-
                 </div>
-
               </div>
             );
           })}
         </div>
         <br />
         <div>
-          <button className="contribute-button rounded ">
+          <a
+            className="contribute-button rounded btn"
+            href="https://github.com/GDSC-CTAE"
+          >
             See All projects
-          </button>
+          </a>
         </div>
       </div>
     </div>

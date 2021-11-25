@@ -44,9 +44,12 @@ function Events() {
                   </p>
                 </div>
                 <div className="col-12 ">
-                  <button className=" event-view-button rounded p-1">
+                  <a
+                    className="btn event-view-button rounded p-1"
+                    href={events.link}
+                  >
                     View More
-                  </button>
+                  </a>
                 </div>
                 <br />
                 <br />

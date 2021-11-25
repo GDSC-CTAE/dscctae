@@ -1,4 +1,5 @@
 import HarshChandravanshi from "../assets/team/HarshChandravanshi.jpeg";
+import KapilRamwani from "../assets/team/KapilRamwani.jpeg";
 import ChelsiJain from "../assets/team/ChelsiJain.jpg";
 import KausarAhamed from "../assets/team/KausarAhamed.jpg";
 import SheetalDhadhich from "../assets/team/SheetalDadhich.jpg";
@@ -12,7 +13,7 @@ export const teamData = [
     name: "Harsh Candravanshi",
     post: "Dsc Lead",
     linkedinLink: "https://www.linkedin.com/in/harsh-chandravanshi-74571b172/",
-    githubLink: "https://www.linkedin.com/in/harsh-chandravanshi-74571b172/",
+    githubLink: "https://github.com/harsh0620",
     instagramLink: "https://www.instagram.com/harshchandravanshi/",
     img: HarshChandravanshi,
   },
@@ -23,14 +24,6 @@ export const teamData = [
     githubLink: "https://github.com/PIE-3",
     instagramLink: "https://www.instagram.com/ahamed_kausar/?hl=en",
     img: KausarAhamed,
-  },
-  {
-    name: "Sourabh Purbia",
-    post: "Core Team Member",
-    linkedinLink: "https://www.linkedin.com/in/sourabhpurbia/",
-    githubLink: "https://github.com/sourabhpurbia",
-    instagramLink: "https://www.instagram.com/sourabhpurbia/",
-    img: SourabhPurbia,
   },
   {
     name: "Sheetal Dadhich",
@@ -55,6 +48,22 @@ export const teamData = [
     githubLink: "https://www.github.com/harshsinghvi",
     instagramLink: "https://www.instagram.com/insomniac_coder/",
     img: NishthaSaraswat,
+  },
+  {
+    name: "Kapil Ramwani",
+    post: "Public Relation Lead",
+    linkedinLink: "https://www.linkedin.com/in/sourabhpurbia/",
+    githubLink: "https://github.com/sourabhpurbia",
+    instagramLink: "https://www.instagram.com/sourabhpurbia/",
+    img: KapilRamwani,
+  },
+  {
+    name: "Sourabh Purbia",
+    post: "Core Team Member",
+    linkedinLink: "https://www.linkedin.com/in/sourabhpurbia/",
+    githubLink: "https://github.com/sourabhpurbia",
+    instagramLink: "https://www.instagram.com/sourabhpurbia/",
+    img: SourabhPurbia,
   },
   {
     name: "Garvit Chouhan",

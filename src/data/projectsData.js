@@ -1,6 +1,6 @@
 export const projectData = [
   {
-    title: "DSCCTAAE-CMS",
+    title: "DSCCTAE-CMS",
     description:
       "Club Management Portal: A tool that can manage all the things related to DSC in any college.",
     status: "false",
