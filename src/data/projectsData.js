@@ -6,6 +6,7 @@ export const projectData = [
     status: "false",
     statusName: "Ongoing",
     link: "https://github.com/GDSC-CTAE/dscctae-cms",
+    Clink: "/dscctae/contact",
   },
   {
     title: "BaatCheet",
@@ -14,6 +15,7 @@ export const projectData = [
     status: "false",
     statusName: "Ongoing",
     link: "https://github.com",
+    Clink: "/dscctae/contact",
   },
   {
     title: "DSCCTAE",
@@ -22,5 +24,6 @@ export const projectData = [
     status: "true",
     statusName: "Completed",
     link: "https://github.com/GDSC-CTAE/dscctae",
+    Clink: "/dscctae/contact",
   },
 ];
