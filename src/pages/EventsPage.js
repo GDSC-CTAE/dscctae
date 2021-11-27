@@ -1,33 +1,22 @@
-import React, { useEffect } from "react";
-import { eventsData } from "../../data/eventsData";
-import "./Events.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
-
-function Events() {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
+import React from "react";
+import { eventsData } from "../data/eventsData";
+function EventsPage() {
   const descLengthTitle = 5;
   const descLengthDesc = 10;
   return (
-    <div>
-      <div className="mb-3 eventsTitle pt-5">
+    <div className="container">
+      <div className="mb-3 eventsTitle pt-5 mt-5">
         <h1> Events Highligts</h1>
       </div>
       <div className="row pt-4 w-100 m-0">
         {eventsData.map((events, index) => {
-          return index <= 2 ? (
+          return (
             <div
-              className="col-lg-4 col-sm-12 event-container p-0 "
+              className="col-lg-4 col-sm-12 event-container p-0 mb-3"
               key={index}
               data-aos="zoom-in"
             >
-              <img
-                src={events.img}
-                alt="Avatar"
-                className="image w-100 h-100"
-              />
+              <img src={events.img} alt="Avatar" className="image " />
               <div className="row middle  h-100 w-100 align-items-center">
                 <div className="eventsTitle col-12 mt-3">
                   <h1>
@@ -55,21 +44,11 @@ function Events() {
                 <br />
               </div>
             </div>
-          ) : (
-            <div></div>
           );
         })}
-      </div>
-      <div>
-        <a
-          className="contribute-button rounded btn mt-5"
-          href="/dscctae/events"
-        >
-          See All Events
-        </a>
       </div>
     </div>
   );
 }
 
-export default Events;
+export default EventsPage;

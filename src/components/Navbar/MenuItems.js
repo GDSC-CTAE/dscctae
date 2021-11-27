@@ -26,7 +26,7 @@ export const MenuItems = [
 
   {
     title: "Contact Us",
-    url: "/dscctae/#contactus",
+    url: "/dscctae/contact",
     cName: "nav-links",
     cHame: "route-link",
   },

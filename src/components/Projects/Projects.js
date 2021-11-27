@@ -17,7 +17,7 @@ function Project() {
         </div>
         <div className="row projectCards container text-center">
           {projectData.map((projects, index) => {
-            return (
+            return index <= 2 ? (
               <div
                 className="col-lg rounded project-container p-5 m-3 "
                 key={index}
@@ -68,15 +68,14 @@ function Project() {
                   </div>
                 </div>
               </div>
+            ) : (
+              <div></div>
             );
           })}
         </div>
         <br />
         <div>
-          <a
-            className="contribute-button rounded btn"
-            href="https://github.com/GDSC-CTAE"
-          >
+          <a className="contribute-button rounded btn" href="/dscctae/projects">
             See All projects
           </a>
         </div>

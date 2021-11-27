@@ -5,7 +5,7 @@ import KausarAhamed from "../assets/team/KausarAhamed.jpg";
 import SheetalDhadhich from "../assets/team/SheetalDadhich.jpg";
 import GarvitChouhan from "../assets/team/GarvitChouhan.png";
 import SourabhPurbia from "../assets/team/SourabhPurbia.png";
-import NishthaSaraswat from "../assets/team/NishthaSaraswat.png";
+import NishthaSaraswat from "../assets/team/NishthaSaraswat.jpg";
 import HarshSinghvi from "../assets/team/HarshSinghvi.png";
 
 export const teamData = [
@@ -44,17 +44,17 @@ export const teamData = [
   {
     name: "Nishtha Saraswat",
     post: "Android Lead",
-    linkedinLink: "https://www.linkedin.com/in/harsh-singhvi/",
-    githubLink: "https://www.github.com/harshsinghvi",
-    instagramLink: "https://www.instagram.com/insomniac_coder/",
+    linkedinLink: "https://www.linkedin.com/in/nishtha-saraswat",
+    githubLink: "https://github.com/nishtha-dev",
+    instagramLink: "https://www.linkedin.com/in/nishtha-saraswat",
     img: NishthaSaraswat,
   },
   {
     name: "Kapil Ramwani",
     post: "Public Relation Lead",
-    linkedinLink: "https://www.linkedin.com/in/sourabhpurbia/",
-    githubLink: "https://github.com/sourabhpurbia",
-    instagramLink: "https://www.instagram.com/sourabhpurbia/",
+    linkedinLink: "https://www.linkedin.com/in/kapil-ramwani-0760ab165/",
+    githubLink: "https://www.linkedin.com/in/kapil-ramwani-0760ab165/",
+    instagramLink: "https://www.linkedin.com/in/kapil-ramwani-0760ab165/",
     img: KapilRamwani,
   },
   {

@@ -120,7 +120,7 @@ function Footer() {
             </a>
           </li>
           <li className="menu__item">
-            <a className="menu__link" href="/dscctae/#contactus ">
+            <a className="menu__link" href="/dscctae/contact ">
               Contact Us
             </a>
           </li>
