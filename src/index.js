@@ -17,3 +17,8 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+//"homepage": "https://GDSC-CTAE.github.io/dscctae",
+//scripts
+// "predeploy": "npm run build",
+//     "deploy": "gh-pages -d build"
