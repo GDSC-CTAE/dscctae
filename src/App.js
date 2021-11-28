@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <HashRouter basename="/">
+      <HashRouter basename="/dscctae">
         <Routes>
           <Route path="/dscctae" exact element={<Landing />} />
           <Route path="/dscctae/projects" element={<ProjectsPage />} />
