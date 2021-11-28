@@ -1,4 +1,4 @@
-import HarshChandravanshi from "../assets/team/HarshChandravanshi.jpeg";
+import HarshChandravanshi from "../assets/team/HarshChandravanshi.png";
 import KapilRamwani from "../assets/team/KapilRamwani.jpeg";
 import ChelsiJain from "../assets/team/ChelsiJain.jpg";
 import KausarAhamed from "../assets/team/KausarAhamed.jpg";
