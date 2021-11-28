@@ -43,7 +43,7 @@ function ProjectsPage() {
                           <button
                             className=" github-button  "
                             onClick={() => {
-                              window.open("https://github.com", "_blank");
+                              window.open(projects.link, "_blank");
                             }}
                           >
                             <GitHubIcon className="fs-1 h-100 w-100" />
@@ -54,7 +54,7 @@ function ProjectsPage() {
                       <div className="row">
                         <a
                           className="contribute-button rounded btn"
-                          href={projects.link}
+                          href={projects.Clink}
                         >
                           Wants to Contribute
                         </a>

@@ -61,10 +61,7 @@ function Events() {
         })}
       </div>
       <div>
-        <a
-          className="contribute-button rounded btn mt-5"
-          href="/dscctae/events"
-        >
+        <a className="contribute-button rounded btn mt-5" href="/events">
           See All Events
         </a>
       </div>

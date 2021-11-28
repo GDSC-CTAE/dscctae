@@ -1,32 +1,32 @@
 export const MenuItems = [
   {
     title: "Home",
-    url: "/dscctae/",
+    url: "/",
     cName: "nav-links",
     cHame: "route-link",
   },
   {
     title: "About Us",
-    url: "/dscctae/#aboutus",
+    url: "/#aboutus",
     cName: "nav-links",
     cHame: "route-link",
   },
   {
     title: "Projects",
-    url: "/dscctae/#projects",
+    url: "/#projects",
     cName: "nav-links",
     cHame: "route-link",
   },
   {
     title: "Team",
-    url: "/dscctae/#team",
+    url: "/#team",
     cName: "nav-links",
     cHame: "route-link",
   },
 
   {
     title: "Contact Us",
-    url: "/dscctae/contact",
+    url: "/contact",
     cName: "nav-links",
     cHame: "route-link",
   },

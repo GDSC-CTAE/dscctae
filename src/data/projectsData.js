@@ -6,7 +6,7 @@ export const projectData = [
     status: "false",
     statusName: "Ongoing",
     link: "https://github.com/GDSC-CTAE/dscctae-cms",
-    Clink: "/dscctae/contact",
+    Clink: "/contact",
   },
   {
     title: "BaatCheet",
@@ -14,8 +14,8 @@ export const projectData = [
       "Practice makes perfect. Try your hand at past Kick Start problems to prepare  for the next round on our archive page. If you’re new to Kick Start,  check out our tutorial video, which walks through the platform and provides  tips on how to solve an algorithmic problem.",
     status: "false",
     statusName: "Ongoing",
-    link: "https://github.com",
-    Clink: "/dscctae/contact",
+    link: "https://github.com/GDSC-CTAE",
+    Clink: "/contact",
   },
   {
     title: "DSCCTAE",
@@ -24,6 +24,6 @@ export const projectData = [
     status: "true",
     statusName: "Completed",
     link: "https://github.com/GDSC-CTAE/dscctae",
-    Clink: "/dscctae/contact",
+    Clink: "/contact",
   },
 ];

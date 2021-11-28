@@ -75,7 +75,7 @@ function Project() {
         </div>
         <br />
         <div>
-          <a className="contribute-button rounded btn" href="/dscctae/projects">
+          <a className="contribute-button rounded btn" href="/projects">
             See All projects
           </a>
         </div>
