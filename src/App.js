@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <HashRouter basename="/dscctae">
         <Routes>
-          <Route path="/dscctae" exact element={<Landing />} />
+          <Route path="/" exact element={<Landing />} />
           <Route path="/dscctae/projects" element={<ProjectsPage />} />
           <Route path="/dscctae/events" element={<EventsPage />} />
           <Route path="/dscctae/contact" element={<Contact />} />
