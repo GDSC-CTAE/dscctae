@@ -47,7 +47,10 @@ function Footer() {
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://discord.gg/WKFBPBcC">
+            <a
+              className="social-icon__link"
+              href="https://discord.gg/ThMF9j5BTD"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
